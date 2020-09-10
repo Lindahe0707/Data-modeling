@@ -29,13 +29,13 @@ extra reference.
 
 There were some attributes with missing values: job, marital, education, default, housing, and loan. I checked the output distribution on the ‘unknown’ instances and applied different methods on these attributes. For some attributes, I treated missing values as a separate class and gave them a new label. However, for the “default” attribute, as there were more than 20% of missing data and the value was seriously unbalanced as shown on the right. Thus, this attribute was finally removed as well.
 
-![MissingValue](missing value.png)
+![MissingValue](missingvalue.png)
 
 - One hot encoding method
 
 The one hot encoding method created a set of binary dummy variables.The missing value was labeled as ‘unknown’, which was considered as a new class.
 
-![OneHotEncoding](one hot encoding.png)
+![OneHotEncoding](OneHotEncoding.png)
 
 - Imbalanced dataset
 
@@ -43,6 +43,7 @@ I applied oversampling method by duplicating some of the original samples of the
 
 - Training models (including tuning hyperparameters)
 
+![Models](Models.png)
 
 - Decision Tree Visualization
 ![DT](tuned_decisiontree.png)
@@ -55,7 +56,7 @@ I generated 100 decision stumps with 1 depth and learning rate = 0.01. The perfo
 
 - Best model
 
-![wew] ()
+![Performance](FinalPerformance.png)
 
 - Checking feature importance
 
