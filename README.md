@@ -6,7 +6,7 @@ A Portuguese banking institution has been using a direct marketing strategy, col
 
 ## Problem Statement
 
-Build a model by predicting their potential customer who would like to subscribe their term deposit according to customers’ personal information, marketing campaigns information and economic context attributes.
+Build a classification model to predict potential customers who would like to subscribe their term deposit according to customers’ personal information, marketing campaigns information and economic context attributes.
 
 ## Solution
 
